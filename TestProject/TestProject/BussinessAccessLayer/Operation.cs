@@ -9,9 +9,9 @@ namespace TestProject.BussinessAccessLayer
     {
         public int Addition()
         {
-            int a = 10;
-            int b = 20;
-            int c;
+            var a = 10;
+            var b = 20;
+            var c;
             c = a + b;
             return c;
         }
